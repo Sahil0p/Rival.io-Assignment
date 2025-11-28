@@ -64,8 +64,8 @@ node main.js
 | **Performance** | **10,000** | **✅ ~100ms** | **✓** |
 
 > npm test # 37 tests pass instantly
-  > npm test -- --coverage # 90%+ coverage report
-  > npm run coverage # HTML coverage report
+  npm test -- --coverage # 90%+ coverage report
+  npm run coverage # HTML coverage report
 
 
 - **Coverage Report:**
@@ -171,6 +171,7 @@ sahil-rival-assignment/
 
 **Sahil** - Full-Stack Developer  
 [GitHub][https://github.com/yourusername](https://github.com/Sahil0p) | [LinkedIn](https://linkedin.com/in/sahilahmed29)
+
 
 
 
