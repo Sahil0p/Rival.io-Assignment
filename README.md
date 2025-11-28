@@ -19,8 +19,8 @@ Single-pass **O(N)** serverless API log analyzer implementing **Core requirement
 > Prerequisites: Node.js v18+
 ### 1. Clone repository
 ```
-git clone <your-repo-url>
-cd sahil-rival-assignment
+git clone https://github.com/Sahil0p/Sahil-Ahmed-Rival-Assignment
+cd Sahil-Ahmed-Rival-Assignment
 ```
 
 ### 2. Install dependencies (Jest for testing only)
@@ -36,7 +36,7 @@ npm test
 > Dependencies:    
 > ├── jest (testing)  
 > ├── No runtime dependencies  
-> └── Pure vanilla Node.js  
+> └── Pure Node.js  
 
 
 ## How to Run the Function
@@ -190,6 +190,7 @@ console.log(JSON.stringify(result, null, 2));
 | 0–1KB     | Tier 1 | $0.00001   |
 | 1–10KB    | Tier 2 | $0.00005   |
 | 10KB+     | Tier 3 | $0.0001    |
+
 
 
 
