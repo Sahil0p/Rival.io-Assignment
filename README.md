@@ -33,7 +33,7 @@ npm install
 npm test 
 ```
 
-> **Dependencies:**  
+> Dependencies:    
 > ├── jest (testing)  
 > ├── No runtime dependencies  
 > └── Pure vanilla Node.js  
@@ -146,7 +146,7 @@ console.log(JSON.stringify(result, null, 2));
 
  
 
-##2. Custom Configuration
+## 2. Custom Configuration
 > const customConfig = {  
 > CACHING_CRITERIA: { MIN_REQUESTS: 5, MIN_GET_RATIO: 0.8 },  
 > RESPONSE_TIME_THRESHOLDS: { MEDIUM: 300 }  
@@ -190,5 +190,6 @@ console.log(JSON.stringify(result, null, 2));
 | 0–1KB     | Tier 1 | $0.00001   |
 | 1–10KB    | Tier 2 | $0.00005   |
 | 10KB+     | Tier 3 | $0.0001    |
+
 
 
