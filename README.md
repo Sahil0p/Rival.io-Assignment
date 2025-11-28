@@ -69,7 +69,7 @@ node main.js
 
 
 ## **Coverage Report:**
-> Statements: 90.27% | Branches: 95.12% | Functions: 96.96% | Lines: 90.11%
+
 -  `PASS` tests/test_function.test.js
 -  `PASS`  tests/test_edge_cases.test.js
 ```
@@ -179,6 +179,7 @@ sahil-rival-assignment/
 
 **Sahil** - Full-Stack Developer  
 [GitHub][https://github.com/yourusername](https://github.com/Sahil0p) | [LinkedIn](https://linkedin.com/in/sahilahmed29)
+
 
 
 
