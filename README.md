@@ -63,10 +63,11 @@ node main.js
 | `large.json` | **1,050** | ✅ PASS | **45ms** |
 | **Performance** | **10,000** | **✅ ~100ms** | **✓** |
 
-> npm test # 37 tests pass instantly
-  npm test -- --coverage # 90%+ coverage report
-  npm run coverage # HTML coverage report
-
+```bash
+npm test               # Runs all tests
+npm test -- --coverage # Generates 90%+ coverage
+npm run coverage       # Opens HTML coverage report
+```
 
 - **Coverage Report:**
 > Statements: 90.27% | Branches: 95.12% | Functions: 96.96% | Lines: 90.11%
@@ -82,10 +83,11 @@ node main.js
 > Total Requests: 15 | Avg Response: 787ms | Error Rate: 20%
 
 ### 📈 ENDPOINT STATS:
-
-> /api/users: 6 reqs | 148ms avg | 16.7% errors
-> /api/payments: 4 reqs | 912ms avg | 50% errors ⚠️
-> /api/reports: 3 reqs | 2100ms avg ⚠️
+```
+/api/users: 6 reqs | 148ms avg | 16.7% errors
+/api/payments: 4 reqs | 912ms avg | 50% errors ⚠️
+/api/reports: 3 reqs | 2100ms avg ⚠️
+```
 
 ### 💰 COST ANALYSIS (Option A):
 
@@ -171,6 +173,7 @@ sahil-rival-assignment/
 
 **Sahil** - Full-Stack Developer  
 [GitHub][https://github.com/yourusername](https://github.com/Sahil0p) | [LinkedIn](https://linkedin.com/in/sahilahmed29)
+
 
 
 
