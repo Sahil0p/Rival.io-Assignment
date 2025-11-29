@@ -1,33 +1,33 @@
 
-# Rival.io API Log Analyzer
+# 🚀 Rival.io API Log Analyzer
 
-## Project Overview
+## 📘 Project Overview
 
 Single-pass **O(N)** serverless API log analyzer implementing **Core requirements + Option A (Cost Analysis) + Option D (Caching Opportunities)**.
 
-**Key Features:**
-- **Core Analytics**: Response times, error rates, endpoint stats, hourly distribution, top users
-- **Option A**: Real AWS Lambda cost analysis with memory tiers (0-1KB/$0.00001, 1-10KB/$0.00005, 10KB+/$0.0001)
-- **Option D**: Caching opportunity detection (≥70% GET, ≤10% errors, ≥3 requests)
+🔧 **Key Features:**
+- 📊 **Core Analytics**: Response times, error rates, endpoint stats, hourly distribution, top users
+- 💰 **Option A**: Real AWS Lambda cost analysis with memory tiers (`0-1KB/$0.00001`, `1-10KB/$0.00005`, `10KB+/$0.0001`)
+- 🗄️ **Option D**: Caching opportunity detection (≥70% GET, ≤10% errors, ≥3 requests)
 
-**Production Stats:**
-- **90.27% test coverage** (37 tests passing)
-- **10k logs processed in ~100ms** (<2s requirement)
-- **3 datasets tested**: 15/105/1,050 logs
+📈 **Production Stats:**
+- ✅ **90.27% test coverage** (`37 tests passing`)
+- ⚡ **10k logs processed in ~100ms** (`<2s requirement`)
+- 📂 **3 datasets tested**: `15/105/1,050 logs`
 
-## Setup Instructions (Dependencies & Installation)
+## 🛠️ Setup Instructions (Dependencies & Installation)
 > Prerequisites: Node.js v18+
-### 1. Clone repository
+### 1️⃣ Clone repository
 ```
 git clone https://github.com/Sahil0p/Sahil-Ahmed-Rival-Assignment
 cd Sahil-Ahmed-Rival-Assignment
 ```
 
-### 2. Install dependencies (Jest for testing only)
+### 2️⃣ Install dependencies (Jest for testing only)
 ```
 npm install
 ```
-### 3. Verify setup
+### 3️⃣ Verify setup
 
 ```
 npm test 
@@ -41,12 +41,12 @@ npm test
 
 ## How to Run the Function
 
-### Demo Mode (Sample Data)
+### 🧪 Demo Mode (Sample Data)
 ```
 node main.js
 ```
 
-### Programmatic Usage
+### 🧩 Programmatic Usage
 ```
 const { analyze_api_logs } = require('./main.js');
 const logs = require('./test_data/sample_small.json');
@@ -54,10 +54,10 @@ const result = analyze_api_logs(logs);
 console.log(JSON.stringify(result, null, 2));
 ```
 
-> **Exportable function for serverless deployment:**  
+> 🌐 **Exportable function for serverless deployment:**  
 > module.exports = { analyze_api_logs };  
 
-## How to Run Tests
+## 🧪 How to Run Tests
 
 - All tests (37 passing, 90%+ coverage)
   ```
@@ -80,7 +80,7 @@ console.log(JSON.stringify(result, null, 2));
   ```
 
 
-**Test Results:**
+✅ **Test Results:**
 
 -  `PASS` tests/test_function.test.js
 -  `PASS`  tests/test_edge_cases.test.js
@@ -101,7 +101,7 @@ console.log(JSON.stringify(result, null, 2));
 
 
 
-**Datasets Tested:**
+📂 **Datasets Tested:**
 | Dataset | Logs | Status |
 |---------|------|--------|
 | small.json | 15 | ✅ PASS |
@@ -110,9 +110,9 @@ console.log(JSON.stringify(result, null, 2));
 
 ---
 
-## Usage Examples
+## 🧾 Usage Examples
 
-## 1. Demo Output (`node main.js`)
+## 1️⃣ Demo Output (`node main.js`)
 
 > === RIVAL.IO API LOG ANALYZER ===
 
@@ -146,7 +146,7 @@ console.log(JSON.stringify(result, null, 2));
 
  
 
-## 2. Custom Configuration
+## 2️⃣ Custom Configuration
 > const customConfig = {  
 > CACHING_CRITERIA: { MIN_REQUESTS: 5, MIN_GET_RATIO: 0.8 },  
 > RESPONSE_TIME_THRESHOLDS: { MEDIUM: 300 }  
@@ -190,6 +190,7 @@ console.log(JSON.stringify(result, null, 2));
 | 0–1KB     | Tier 1 | $0.00001   |
 | 1–10KB    | Tier 2 | $0.00005   |
 | 10KB+     | Tier 3 | $0.0001    |
+
 
 
 
